@@ -1,0 +1,27 @@
+// ==UserScript==
+// @name        Twitter Tweaks
+// @namespace   twittetweaks
+// @description Twitter Tweaks
+// @include     *twitter.com/*
+// @version     1
+// @updateURL   https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/twitter-tweaks.user.js
+// @grant       GM_addStyle
+// ==/UserScript==
+
+GM_addStyle (
+  /* Hide Moments button */
+  'li[class*="moments js-moments-tab"] { display: none !important; }'+
+  
+  /* Hide Who to follow */
+  'div[class*="wtf-module js-wtf-module"], div[class*="WhoToFollow"], '+
+  'li[data-component-context*="suggest_who_to_follow"] { display: none !important; }'+
+  
+  /* Hide Advertise with Twitter */
+  'div[class*="flex-module Footer-adsModule"] { display: none !important; }'+
+  
+  /* Hide While you were away... */
+  'li[class*="js-stream-item"][class*="has-recap"] { display: none !important; }'+
+  
+  /* Hide Live video */
+  'div[class*="LiveVideoHomePageModule"] { display: none !important; }'
+);

@@ -4,7 +4,7 @@
 // @namespace   twittetweaks
 // @description Twitter Tweaks
 // @include     *twitter.com/*
-// @version     1
+// @version     2
 // @updateURL   https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/twitter-tweaks.user.js
 // @grant       GM_addStyle
 // @run-at      document-start

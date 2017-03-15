@@ -4,9 +4,10 @@
 // @namespace   bulbapediatweaks
 // @description Hides the notice banner
 // @include     http://bulbapedia.bulbagarden.net/*
-// @version     2
+// @version     3
 // @updateURL   https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/bulbapedia-tweaks.user.js
 // @grant       GM_addStyle
+// @run-at      document-start
 // ==/UserScript==
 
 GM_addStyle (

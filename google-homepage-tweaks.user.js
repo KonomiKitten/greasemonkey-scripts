@@ -8,6 +8,7 @@
 // @version     1
 // @updateURL   https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/google-homepage-tweaks.user.js
 // @grant       GM_addStyle
+// @run-at      document-start
 // ==/UserScript==
 
 GM_addStyle (

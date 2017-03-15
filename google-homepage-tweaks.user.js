@@ -3,9 +3,9 @@
 // @author      KonomiKitten
 // @namespace   googlehomepagetweaks
 // @description Disable "Come here often? Make Google your homepage"
-// @include     http://*google.com*
-// @include     https://*google.com*
-// @version     2
+// @include     http://www.google.com*
+// @include     https://www.google.com*
+// @version     3
 // @updateURL   https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/google-homepage-tweaks.user.js
 // @grant       GM_addStyle
 // @run-at      document-start

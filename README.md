@@ -12,6 +12,7 @@ A collection of Greasemonkey Scripts to make Browsing better
   * Hides "Advertise with Twitter"
   * Hides "While you were away..."
   * Hides "Live video"
+  * Hides "Watch LIVE now"
 
 ## Install URLS
 [Google Homepage Tweaks](https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/google-homepage-tweaks.user.js)

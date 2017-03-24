@@ -5,7 +5,7 @@
 // @description Twitter Tweaks
 // @include     http://twitter.com*
 // @include     https://twitter.com*
-// @version     3
+// @version     3.0.1
 // @updateURL   https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/twitter-tweaks.user.js
 // @grant       GM_addStyle
 // @run-at      document-start
@@ -26,5 +26,8 @@ GM_addStyle (
   'li[class*="js-stream-item"][class*="has-recap"] { display: none !important; }'+
   
   /* Hide Live video */
-  'div[class*="LiveVideoHomePageModule"] { display: none !important; }'
+  'div[class*="LiveVideoHomePageModule"] { display: none !important; }'+
+  
+  /* Hide Watch LIVE now dialog */
+  'div[class="js-prompt-layout-content"] { display: none !important; }'
 );

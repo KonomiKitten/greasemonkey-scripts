@@ -5,7 +5,7 @@
 // @description Wikia Tweaks
 // @include     http://*wikia.com*
 // @include     https://*wikia.com*
-// @version     3.0.1
+// @version     3.0.2
 // @updateURL   https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/wikia-tweaks.user.js
 // @grant       GM_addStyle
 // @run-at      document-start

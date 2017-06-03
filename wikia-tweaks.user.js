@@ -2,8 +2,8 @@
 // @name        Wikia Tweaks
 // @author      KonomiKitten
 // @namespace   wikiatweaks
-// @description Twitter Tweaks
-// @include     http://*wikia.com
+// @description Wikia Tweaks
+// @include     http://*wikia.com*
 // @include     https://*wikia.com*
 // @version     3.0.1
 // @updateURL   https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/wikia-tweaks.user.js

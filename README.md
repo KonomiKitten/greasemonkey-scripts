@@ -20,3 +20,5 @@ A collection of Greasemonkey Scripts to make Browsing better
 [Bulbapedia Tweaks](https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/bulbapedia-tweaks.user.js)
 
 [Twitter Tweaks](https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/twitter-tweaks.user.js)
+
+[Wikia Tweaks](https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/wikia-tweaks.user.js)

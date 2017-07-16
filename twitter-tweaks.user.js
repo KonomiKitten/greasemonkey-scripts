@@ -26,5 +26,5 @@ GM_addStyle (
   'li[class*="js-stream-item"][class*="has-recap"] { display: none !important; }'+
   
   /* Hide Live video */
-  'div[class*="VideoGuide"][class*="roaming-module"] { display: none !important; }'+
+  'div[class*="VideoGuide"][class*="roaming-module"] { display: none !important; }'
 );

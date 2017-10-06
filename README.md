@@ -12,6 +12,14 @@ A collection of Greasemonkey Scripts to make Browsing better
   * Hides "Advertise with Twitter"
   * Hides "While you were away..."
   * Hides "Live video"
+### Wikia Tweaks (Work in Progress)
+  * Hide Wikia main banner (Top bar)
+  * Hide Notifcation dialogs
+  * Hide Trending Fandom Articles
+  * Hide Fan Feed
+  * Hide Explore the Beautiful world of Wikia (Bottom bar)
+### YouTube Disable Up Next
+  * Disable "Up Next" otherwise known as AutoPlay
 
 ## Install URLS
 [Google Homepage Tweaks](https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/google-homepage-tweaks.user.js)
@@ -21,3 +29,5 @@ A collection of Greasemonkey Scripts to make Browsing better
 [Twitter Tweaks](https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/twitter-tweaks.user.js)
 
 [Wikia Tweaks](https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/wikia-tweaks.user.js)
+
+[YouTube Disable Up Next](https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/youtube-disable-up-next.user.js)

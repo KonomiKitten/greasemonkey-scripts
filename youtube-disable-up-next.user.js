@@ -17,9 +17,10 @@ function f() {
 		node = document.querySelector(
 			'paper-toggle-button[aria-label="Autoplay"]'
 		);
-		node.setAttribute('aria-pressed', 'false');
-		node.removeAttribute('checked');
-		node.removeAttribute('active');
+		//node.setAttribute('aria-pressed', 'false');
+		//node.removeAttribute('checked');
+		//node.removeAttribute('active');
+		console.log('node', node);
 	}
 	catch (e) {}
 }

@@ -5,7 +5,7 @@
 // @description	Disable "Up Next" otherwise known as AutoPlay
 // @include	http://www.youtube.com*
 // @include	https://www.youtube.com*
-// @version	1.0.1
+// @version	0.0.1
 // @updateURL	https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/youtube-disable-up-next.user.js
 // @grant	none
 // @run-at	document-end
@@ -17,6 +17,9 @@ function f() {
 		node = document.querySelector(
 			'paper-toggle-button[aria-label="Autoplay"]'
 		);
+		if (node === undefined) {
+				return;
+		}
 		//node.setAttribute('aria-pressed', 'false');
 		//node.removeAttribute('checked');
 		//node.removeAttribute('active');

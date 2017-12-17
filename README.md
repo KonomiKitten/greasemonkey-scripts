@@ -15,9 +15,7 @@ of webpages. Quoting a post from a Stackoverflow thread on the issue:
 
 Quoting an issue on Greasemonkey's Issue Tracker:
 
-*I don't know about "not really a Greasemonkey issue" - both Tampermonkey and Violentmonkey handle this very case without problems. Not only that, but this is a breaking change that isn't mentioned in any of the blog posts.
-
-In order to work as expected with existing userscripts and to be cross-compatible with other popular userscript managers, shouldn't this be fixed?*
+*I don't know about "not really a Greasemonkey issue" - both Tampermonkey and Violentmonkey handle this very case without problems. Not only that, but this is a breaking change that isn't mentioned in any of the blog posts. In order to work as expected with existing userscripts and to be cross-compatible with other popular userscript managers, shouldn't this be fixed?*
 
 [Can't access variables defined in <script> tags on the actual page.](https://github.com/greasemonkey/greasemonkey/issues/2700)
 

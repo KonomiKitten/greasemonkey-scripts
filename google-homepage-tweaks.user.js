@@ -5,8 +5,8 @@
 // @description	Disable "Come here often? Make Google your homepage"
 // @include	http://www.google.com*
 // @include	https://www.google.com*
-// @version	3.0.1
-// @updateURL	https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/google-homepage-tweaks.user.js
+// @version	3.0.2
+// @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/google-homepage-tweaks.user.js
 // @grant	none
 // @run-at	document-end
 // ==/UserScript==

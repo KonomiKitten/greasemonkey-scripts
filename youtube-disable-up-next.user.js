@@ -41,6 +41,18 @@ delayedObserver({
 });
 /* Old YouTube Theme */
 delayedObserver({
+	selector: 'div.checkbox-on-off',
+	done: function(element) {
+		element.style.setProperty("display", "none", "important");
+	}
+});
+delayedObserver({
+	selector: 'h4.watch-sidebar-head',
+	done: function(element) {
+		element.style.setProperty("display", "none", "important");
+	}
+});
+delayedObserver({
 	selector: 'input#autoplay-checkbox',
 	done: function(element) {
 		if (element.checked) {

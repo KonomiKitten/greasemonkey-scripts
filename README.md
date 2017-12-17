@@ -5,7 +5,7 @@ A collection of Userscripts to make Browsing better
 ### Supported
 Greasemonkey 3, Tampermonkey and Violentmonkey are supported.
 ### Unsupported
-Greasemonkey 4 is not supported due to them running user scripts in a Firefox 
+Greasemonkey 4 is not supported due to running userscripts in a Firefox 
 only sandbox. This sandbox can break scripts that want to access various parts 
 of webpages. Quoting a post from a Stackoverflow thread on the issue:
 

@@ -5,8 +5,8 @@
 // @description	Twitter Tweaks
 // @include	http://twitter.com*
 // @include	https://twitter.com*
-// @version	3.0.4
-// @updateURL	https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/twitter-tweaks.user.js
+// @version	3.0.5
+// @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/twitter-tweaks.user.js
 // @run-at	document-start
 // ==/UserScript==
 

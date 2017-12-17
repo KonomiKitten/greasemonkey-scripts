@@ -5,7 +5,7 @@
 // @description	Disable "Up Next" otherwise known as AutoPlay
 // @include	http://www.youtube.com*
 // @include	https://www.youtube.com*
-// @version	1.0.1
+// @version	1.0.2
 // @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/youtube-disable-up-next.user.js
 // @grant	none
 // @run-at	document-end
@@ -23,6 +23,7 @@ function delayedObserver(args) {
 		'subtree': true
 	});
 }
+/* New YouTube Theme */
 delayedObserver({
 	selector: 'div#head.style-scope.ytd-compact-autoplay-renderer',
 	done: function(element) {
@@ -38,3 +39,13 @@ delayedObserver({
 		}
 	}
 });
+/* Old YouTube Theme */
+delayedObserver({
+	selector: 'input#autoplay-checkbox',
+	done: function(element) {
+		if (element.checked) {
+			element.click();
+		}
+	}
+});
+

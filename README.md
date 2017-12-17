@@ -5,7 +5,21 @@ A collection of Userscripts to make Browsing better
 ### Supported
 Greasemonkey 3, Tampermonkey and Violentmonkey are supported.
 ### Unsupported
-Greasemonkey 4
+Greasemonkey 4 is not supported due to them running user scripts in a Firefox 
+only sandbox. This sandbox can break scripts that want to access various parts 
+of webpages. Quoting a post from a Stackoverflow thread on the issue:
+
+*When you access the window object from a Greasemonkey script today, what you get is a wrapper object that indirectly references the actual window's properties. This wrapper object can be modified safely, but has important limitations. Access to the actual window object is provided by unsafeWindow (shorthand for window.wrappedJSObject). Use of unsafeWindow re-opens all of Greasemonkey's original security problems and isn't available in Chrome. It should be avoided wherever possible.*
+
+[UserScripts & Greasemonkey: calling a website's JavaScript functions](https://stackoverflow.com/a/5006952)
+
+Quoting an issue on Greasemonkey's Issue Tracker:
+
+*I don't know about "not really a Greasemonkey issue" - both Tampermonkey and Violentmonkey handle this very case without problems. Not only that, but this is a breaking change that isn't mentioned in any of the blog posts.
+
+In order to work as expected with existing userscripts and to be cross-compatible with other popular userscript managers, shouldn't this be fixed?*
+
+[Can't access variables defined in <script> tags on the actual page.](https://github.com/greasemonkey/greasemonkey/issues/2700)
 
 ## The Scripts
 ### Google Homepage Tweaks

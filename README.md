@@ -1,5 +1,11 @@
-# Greasemonkey Scripts
-A collection of Greasemonkey Scripts to make Browsing better
+# Userscripts
+A collection of Userscripts to make Browsing better
+
+## Extensions
+### Supported
+Greasemonkey 3, Tampermonkey and Violentmonkey are supported.
+### Unsupported
+Greasemonkey 4
 
 ## The Scripts
 ### Google Homepage Tweaks
@@ -22,12 +28,12 @@ A collection of Greasemonkey Scripts to make Browsing better
   * Disable "Up Next" otherwise known as AutoPlay
 
 ## Install URLS
-[Google Homepage Tweaks](https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/google-homepage-tweaks.user.js)
+[Google Homepage Tweaks](https://github.com/KonomiKitten/userscripts/raw/master/google-homepage-tweaks.user.js)
 
-[Bulbapedia Tweaks](https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/bulbapedia-tweaks.user.js)
+[Bulbapedia Tweaks](https://github.com/KonomiKitten/userscripts/raw/master/bulbapedia-tweaks.user.js)
 
-[Twitter Tweaks](https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/twitter-tweaks.user.js)
+[Twitter Tweaks](https://github.com/KonomiKitten/userscripts/raw/master/twitter-tweaks.user.js)
 
-[Wikia Tweaks](https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/wikia-tweaks.user.js)
+[Wikia Tweaks](https://github.com/KonomiKitten/userscripts/raw/master/wikia-tweaks.user.js)
 
-[YouTube Disable Up Next](https://github.com/KonomiKitten/greasemonkey-scripts/raw/master/youtube-disable-up-next.user.js)
+[YouTube Disable Up Next](https://github.com/KonomiKitten/userscripts/raw/master/youtube-disable-up-next.user.js)

@@ -5,7 +5,7 @@
 // @description	Disable "Up Next" otherwise known as AutoPlay
 // @include	http://www.youtube.com*
 // @include	https://www.youtube.com*
-// @version	1.0.2
+// @version	1.0.3
 // @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/youtube-disable-up-next.user.js
 // @grant	none
 // @run-at	document-end

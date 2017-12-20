@@ -2,6 +2,8 @@
 A collection of Userscripts to make Browsing better
 
 ## Extensions
+### Recommended
+I recommend using Tampermonkey over any of the other extensions, it has a good consistent look across Firefox and Chrome and every feature you could want is supported.
 ### Supported
 Greasemonkey 3, Tampermonkey and Violentmonkey are supported.
 ### Unsupported

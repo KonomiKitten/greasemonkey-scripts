@@ -5,7 +5,7 @@
 // @description	Twitter Tweaks
 // @include	http://twitter.com*
 // @include	https://twitter.com*
-// @version	3.0.7
+// @version	3.0.8
 // @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/twitter-tweaks.user.js
 // @run-at	document-start
 // ==/UserScript==
@@ -44,7 +44,7 @@ mutationObserverByTag({
 		'div[class*="LiveVideoHomePageModuleContainer"][class*="roaming-module"] { display: none !important; }';
 
 		/* Insert the style into the page */
-		style = document.createElement('style');
+		var style = document.createElement('style');
 		style.type = 'text/css';
 		style.innerHTML = css;
 		element.appendChild(style);

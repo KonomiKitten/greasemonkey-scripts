@@ -29,7 +29,7 @@ mutationObserverByTag({
 		'div#siteNotice { display: none !important; }';
 
 		/* Insert the style into the page */
-		style = document.createElement('style');
+		var style = document.createElement('style');
 		style.type = 'text/css';
 		style.innerHTML = css;
 		element.appendChild(style);

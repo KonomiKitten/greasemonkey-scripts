@@ -5,7 +5,7 @@
 // @description	Wikia Tweaks
 // @include	http://*wikia.com*
 // @include	https://*wikia.com*
-// @version	3.0.9
+// @version	3.1.0
 // @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/wikia-tweaks.user.js
 // @run-at	document-start
 // ==/UserScript==
@@ -42,7 +42,7 @@ mutationObserverByTag({
 		'div[id="WikiaBarWrapper"][class="WikiaBarWrapper"] { display: none !important; }'
 
 		/* Insert the style into the page */
-		style = document.createElement('style');
+		var style = document.createElement('style');
 		style.type = 'text/css';
 		style.innerHTML = css;
 		element.appendChild(style);

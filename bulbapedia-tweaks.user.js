@@ -5,8 +5,9 @@
 // @description	Hides the notice banner
 // @include 	http://bulbapedia.bulbagarden.net/*
 // @include 	https://bulbapedia.bulbagarden.net/*
-// @version	3.0.5
+// @version	3.0.6
 // @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/bulbapedia-tweaks.user.js
+// @downloadURL	https://github.com/KonomiKitten/userscripts/raw/master/bulbapedia-tweaks.user.js
 // @run-at	document-start
 // ==/UserScript==
 

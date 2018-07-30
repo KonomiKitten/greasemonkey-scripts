@@ -5,8 +5,9 @@
 // @description	Twitter Tweaks
 // @include	http://twitter.com*
 // @include	https://twitter.com*
-// @version	3.0.8
+// @version	3.0.9
 // @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/twitter-tweaks.user.js
+// @downloadURL	https://github.com/KonomiKitten/userscripts/raw/master/twitter-tweaks.user.js
 // @run-at	document-start
 // ==/UserScript==
 

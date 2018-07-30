@@ -5,8 +5,8 @@
 // @description	Wikia Tweaks
 // @include	http://*wikia.com*
 // @include	https://*wikia.com*
-// @version	3.1.0
-// @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/wikia-tweaks.user.js
+// @version	3.1.1
+// @updateURL	https://gitlab.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
 // @run-at	document-start
 // ==/UserScript==
 

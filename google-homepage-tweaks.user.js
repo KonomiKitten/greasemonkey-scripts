@@ -8,8 +8,8 @@
 // @version	3.0.5
 // @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/google-homepage-tweaks.user.js
 // @downloadURL	https://github.com/KonomiKitten/userscripts/raw/master/google-homepage-tweaks.user.js
-// @homepageURL	https://github.com/konomikitten/userscripts
-// @supportURL	https://github.com/konomikitten/userscripts/issues
+// @homepageURL	https://github.com/KonomiKitten/userscripts
+// @supportURL	https://github.com/KonomiKitten/userscripts/issues
 // @grant	none
 // @run-at	document-end
 // ==/UserScript==

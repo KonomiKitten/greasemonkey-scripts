@@ -10,6 +10,7 @@
 // @downloadURL	https://gitlab.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
 // @homepageURL	https://gitlab.com/konomikitten/userscripts
 // @supportURL	https://gitlab.com/konomikitten/userscripts/issues
+// @grant	none
 // @run-at	document-start
 // ==/UserScript==
 

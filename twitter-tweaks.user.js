@@ -10,6 +10,7 @@
 // @downloadURL	https://github.com/KonomiKitten/userscripts/raw/master/twitter-tweaks.user.js
 // @homepageURL	https://github.com/KonomiKitten/userscripts
 // @supportURL	https://github.com/KonomiKitten/userscripts/issues
+// @grant	none
 // @run-at	document-start
 // ==/UserScript==
 

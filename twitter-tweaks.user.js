@@ -8,6 +8,8 @@
 // @version	3.0.9
 // @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/twitter-tweaks.user.js
 // @downloadURL	https://github.com/KonomiKitten/userscripts/raw/master/twitter-tweaks.user.js
+// @homepageURL	https://github.com/konomikitten/userscripts
+// @supportURL	https://github.com/konomikitten/userscripts/issues
 // @run-at	document-start
 // ==/UserScript==
 

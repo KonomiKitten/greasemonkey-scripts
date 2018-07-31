@@ -5,10 +5,10 @@
 // @description	Wikia Tweaks
 // @include	http://*wikia.com*
 // @include	https://*wikia.com*
-// @version	3.1.4
+// @version	3.1.5
 // @updateURL	https://gitlab.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
 // @downloadURL	https://gitlab.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
-// @homepageURL	https://gitlab.com/KonomiKitten/userscripts
+// @homepageURL	https://gitlab.com/konomikitten/userscripts
 // @supportURL	https://gitlab.com/konomikitten/userscripts/issues
 // @run-at	document-start
 // ==/UserScript==

@@ -1,6 +1,9 @@
 # Userscripts
 A collection of Userscripts to make Browsing better
 
+## Note
+This repo is currently in the process of moving to GitLab, currently the GitLab repo has updates this repo lacks please switch to the GitLab repo. [KonomiKitten / userscripts](https://gitlab.com/konomikitten/userscripts).
+
 ## Extensions
 ### Recommended
 I recommend using Tampermonkey over any of the other extensions, it has a good consistent look across Firefox and Chrome and every feature you could want is supported.

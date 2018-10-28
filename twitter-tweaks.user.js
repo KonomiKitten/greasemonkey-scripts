@@ -6,10 +6,10 @@
 // @include	http://twitter.com*
 // @include	https://twitter.com*
 // @version	3.1.0
-// @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/twitter-tweaks.user.js
-// @downloadURL	https://github.com/KonomiKitten/userscripts/raw/master/twitter-tweaks.user.js
-// @homepageURL	https://github.com/KonomiKitten/userscripts
-// @supportURL	https://github.com/KonomiKitten/userscripts/issues
+// @updateURL   https://gitlab.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js
+// @downloadURL https://gitlab.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js
+// @homepageURL https://gitlab.com/konomikitten/userscripts
+// @supportURL  https://gitlab.com/konomikitten/userscripts/issues
 // @grant	none
 // @run-at	document-start
 // ==/UserScript==

@@ -6,10 +6,10 @@
 // @include	http://www.google.com*
 // @include	https://www.google.com*
 // @version	3.0.5
-// @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/google-homepage-tweaks.user.js
-// @downloadURL	https://github.com/KonomiKitten/userscripts/raw/master/google-homepage-tweaks.user.js
-// @homepageURL	https://github.com/KonomiKitten/userscripts
-// @supportURL	https://github.com/KonomiKitten/userscripts/issues
+// @updateURL   https://gitlab.com/konomikitten/userscripts/raw/master/google-homepage-tweaks.user.js
+// @downloadURL https://gitlab.com/konomikitten/userscripts/raw/master/google-homepage-tweaks.user.js
+// @homepageURL https://gitlab.com/konomikitten/userscripts
+// @supportURL  https://gitlab.com/konomikitten/userscripts/issues
 // @grant	none
 // @run-at	document-end
 // ==/UserScript==

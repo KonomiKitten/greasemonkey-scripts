@@ -6,10 +6,10 @@
 // @include 	http://bulbapedia.bulbagarden.net/*
 // @include 	https://bulbapedia.bulbagarden.net/*
 // @version	3.0.7
-// @updateURL	https://github.com/KonomiKitten/userscripts/raw/master/bulbapedia-tweaks.user.js
-// @downloadURL	https://github.com/KonomiKitten/userscripts/raw/master/bulbapedia-tweaks.user.js
-// @homepageURL	https://github.com/KonomiKitten/userscripts
-// @supportURL	https://github.com/KonomiKitten/userscripts/issues
+// @updateURL   https://gitlab.com/konomikitten/userscripts/raw/master/bulbapedia-tweaks.user.js
+// @downloadURL https://gitlab.com/konomikitten/userscripts/raw/master/bulbapedia-tweaks.user.js
+// @homepageURL https://gitlab.com/konomikitten/userscripts
+// @supportURL  https://gitlab.com/konomikitten/userscripts/issues
 // @grant	none
 // @run-at	document-start
 // ==/UserScript==

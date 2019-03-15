@@ -6,10 +6,10 @@
 // @include	http://*wikia.com*
 // @include	https://*wikia.com*
 // @version	3.1.6
-// @updateURL   https://gitlab.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
-// @downloadURL https://gitlab.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
-// @homepageURL https://gitlab.com/konomikitten/userscripts
-// @supportURL  https://gitlab.com/konomikitten/userscripts/issues
+// @updateURL   https://github.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
+// @downloadURL https://github.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
+// @homepageURL https://github.com/konomikitten/userscripts
+// @supportURL  https://github.com/konomikitten/userscripts/issues
 // @grant	none
 // @run-at	document-start
 // ==/UserScript==

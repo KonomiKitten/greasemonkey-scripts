@@ -6,10 +6,10 @@
 // @include     http://www.reddit.com*
 // @include     https://www.reddit.com*
 // @version     1.2.4
-// @updateURL   https://gitlab.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js
-// @downloadURL https://gitlab.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js
-// @homepageURL https://gitlab.com/konomikitten/userscripts
-// @supportURL  https://gitlab.com/konomikitten/userscripts/issues
+// @updateURL   https://github.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js
+// @downloadURL https://github.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js
+// @homepageURL https://github.com/konomikitten/userscripts
+// @supportURL  https://github.com/konomikitten/userscripts/issues
 // @grant       none
 // @run-at      document-start
 // ==/UserScript==

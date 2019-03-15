@@ -6,10 +6,10 @@
 // @include	http://www.youtube.com*
 // @include	https://www.youtube.com*
 // @version	1.0.5
-// @updateURL   https://gitlab.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js
-// @downloadURL https://gitlab.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js
-// @homepageURL https://gitlab.com/konomikitten/userscripts
-// @supportURL  https://gitlab.com/konomikitten/userscripts/issues
+// @updateURL   https://github.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js
+// @downloadURL https://github.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js
+// @homepageURL https://github.com/konomikitten/userscripts
+// @supportURL  https://github.com/konomikitten/userscripts/issues
 // @grant	none
 // @run-at	document-end
 // ==/UserScript==

@@ -6,10 +6,10 @@
 // @include     http://www.youtube.com*
 // @include     https://www.youtube.com*
 // @version     1.0.1
-// @updateURL   https://gitlab.com/konomikitten/userscripts/raw/master/youtube-tweaks.user.js
-// @downloadURL https://gitlab.com/konomikitten/userscripts/raw/master/youtube-tweaks.user.js
-// @homepageURL https://gitlab.com/konomikitten/userscripts
-// @supportURL  https://gitlab.com/konomikitten/userscripts/issues
+// @updateURL   https://github.com/konomikitten/userscripts/raw/master/youtube-tweaks.user.js
+// @downloadURL https://github.com/konomikitten/userscripts/raw/master/youtube-tweaks.user.js
+// @homepageURL https://github.com/konomikitten/userscripts
+// @supportURL  https://github.com/konomikitten/userscripts/issues
 // @grant       none
 // @run-at      document-start
 // ==/UserScript==

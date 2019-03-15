@@ -14,41 +14,52 @@
 // @run-at	document-start
 // ==/UserScript==
 
-function mutationObserverByTag(args) {
-	new window.MutationObserver(function() {
-		var element = document.getElementsByTagName(args.tag)[0];
-		if (element) {
-			 this.disconnect();
-			 args.done(element);
-		}
-	}).observe(document, {
-		'childList': true,
-		'subtree': true
-	});
+function mutationObserver(args) {
+    new window.MutationObserver(function() {
+        var node;
+        if (args.tag) {
+            node = document.getElementsByTagName(args.tag)[0];
+        }
+        if (args.selector) {
+            node = document.querySelector(args.selector);
+        }
+        if (node) {
+            this.disconnect();
+            args.done(node);
+        }
+    }).observe(document, {
+        'childList': true,
+        'subtree': true
+    });
 }
-mutationObserverByTag({
-	tag: 'head',
-	done: function(element) {
-		var css = /* Cascading Style Sheets */
-		/* Hide Wikia main banner (Top bar) */
-		'div[id="globalNavigation"][class*="wds-global-navigation"] { display: none !important; }'+
 
-		/* Hide Notifcation dialogs */
-		'ul[id="WikiaNotifications"][class*="WikiaNotifications"] { display: none !important; }'+
+mutationObserver({
+    tag: 'head',
+    done: function(element) {
+        var css = /* Cascading Style Sheets */
+        /* Hide Trending Fandom Articles */
+        'section#recirculation-rail { display: none !important; }'+
 
-		/* Hide Trending Fandom Articles */
-		'div[id="WikiaRailWrapper"][class*="WikiaRail"] { display: none !important; }'+
+        /* Hide Fan Feed */
+        'div[id="mixed-content-footer"] { display: none !important; }'+
+        
+        /* Hide Wikia bar */
+        'div[id="WikiaBar"] { display: none !important; }'+
+        
+        /* Hide Video */
+        'div[itemprop="video"] { display: none !important; }';
+        
+        /* Insert the style into the page */
+        var style = document.createElement('style');
+        style.type = 'text/css';
+        style.innerHTML = css;
+        element.appendChild(style);
+    }
+});
 
-		/* Hide Fan Feed */
-		'div[id="recirculation-footer-index-container"] { display: none !important; }'+
-
-		/* Hide Explore the Beautiful world of Wikia (Bottom bar)*/
-		'div[id="WikiaBarWrapper"][class="WikiaBarWrapper"] { display: none !important; }'
-
-		/* Insert the style into the page */
-		var style = document.createElement('style');
-		style.type = 'text/css';
-		style.innerHTML = css;
-		element.appendChild(style);
-	}
+mutationObserver({
+    selector: 'div#featured-video__player > div > video',
+    done: function(node) {
+        node.pause();
+    }
 });

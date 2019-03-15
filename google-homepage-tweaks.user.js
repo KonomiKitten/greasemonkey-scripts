@@ -14,5 +14,30 @@
 // @run-at	document-end
 // ==/UserScript==
 
+function mutationObserver(args) {
+    new window.MutationObserver(function() {
+        var node;
+        if (args.tag) {
+            node = document.getElementsByTagName(args.tag)[0];
+        }
+        if (args.selector) {
+            node = document.querySelector(args.selector);
+        }
+        if (node) {
+            this.disconnect();
+            args.done(node);
+        }
+    }).observe(document, {
+        'childList': true,
+        'subtree': true
+    });
+}
+
 /* Hides "Come here often? Make Google your homepage" */
-document.querySelector('a[title="No thanks"]').parentNode.style.setProperty("display", "none", "important");
+mutationObserver({
+    selector: 'a[title="No thanks"]',
+    done: function(node) {
+        node.parentNode.style.setProperty("display", "none", "important");
+    }
+});
+

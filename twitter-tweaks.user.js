@@ -5,7 +5,7 @@
 // @description	Twitter Tweaks
 // @include	http://twitter.com*
 // @include	https://twitter.com*
-// @version	3.1.0
+// @version	3.1.3
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts

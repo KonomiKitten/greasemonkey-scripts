@@ -58,16 +58,16 @@ Quoting an issue on Greasemonkey's Issue Tracker:
   * Disable "Up Next" otherwise known as AutoPlay
 
 ## Install URLs
-[Bulbapedia Tweaks](https://gitlab.com/konomikitten/userscripts/raw/master/bulbapedia-tweaks.user.js)
+[Bulbapedia Tweaks](https://github.com/konomikitten/userscripts/raw/master/bulbapedia-tweaks.user.js)
 
-[Google Homepage Tweaks](https://gitlab.com/konomikitten/userscripts/raw/master/google-homepage-tweaks.user.js)
+[Google Homepage Tweaks](https://github.com/konomikitten/userscripts/raw/master/google-homepage-tweaks.user.js)
 
-[Reddit Tweaks](https://gitlab.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js)
+[Reddit Tweaks](https://github.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js)
 
-[Twitter Tweaks](https://gitlab.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js)
+[Twitter Tweaks](https://github.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js)
 
-[Wikia Tweaks](https://gitlab.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js)
+[Wikia Tweaks](https://github.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js)
 
-[YouTube Tweaks](https://gitlab.com/konomikitten/userscripts/raw/master/youtube-tweaks.user.js)
+[YouTube Tweaks](https://github.com/konomikitten/userscripts/raw/master/youtube-tweaks.user.js)
 
-[YouTube Disable Up Next](https://gitlab.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js)
+[YouTube Disable Up Next](https://github.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js)

@@ -43,9 +43,6 @@ Quoting an issue on Greasemonkey's Issue Tracker:
   * Hides "While you were away..."
   * Hides "Live video"
 
-### Twitter Mobile Tweaks
-  * Hides "Who to follow"
-
 ### Wikia Tweaks
   * Hide Trending Fandom Articles
   * Hide Fan Feed

@@ -57,12 +57,12 @@ mutationObserver({
         form.premium-banner {
             display: none !important;
         }
-        
+
         /* Remove Redesign advertisements */
         div.onboardingbar-body {
             display: none !important;
         }`;
-        
+
         /* Insert the style into the page */
         var style = document.createElement('style');
         style.type = 'text/css';

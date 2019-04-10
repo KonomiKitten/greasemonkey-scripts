@@ -35,6 +35,7 @@ Quoting an issue on Greasemonkey's Issue Tracker:
 ### Reddit Tweaks
   * Hide visit new reddit
   * Restyle color fair back to normal flair
+  * Remove Redesign advertisements
 
 ### Twitter Tweaks
   * Hides the "Moments" button

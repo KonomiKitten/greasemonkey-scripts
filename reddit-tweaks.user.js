@@ -5,7 +5,7 @@
 // @description Various tweaks for Reddit
 // @include     http://www.reddit.com*
 // @include     https://www.reddit.com*
-// @version     1.2.6
+// @version     1.2.7
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -56,8 +56,13 @@ mutationObserver({
         /* Remove Reddit premium banner */
         form.premium-banner {
             display: none !important;
+        }
+        
+        /* Remove Redesign advertisements */
+        div.onboardingbar-body {
+            display: none !important;
         }`;
-
+        
         /* Insert the style into the page */
         var style = document.createElement('style');
         style.type = 'text/css';

@@ -5,7 +5,7 @@
 // @description Various tweaks for Reddit
 // @include     http://www.reddit.com*
 // @include     https://www.reddit.com*
-// @version     1.2.7
+// @version     1.2.8
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -59,7 +59,7 @@ mutationObserver({
         }
 
         /* Remove Redesign advertisements */
-        div.onboardingbar-body {
+        section.redesignbetabar-js {
             display: none !important;
         }`;
 

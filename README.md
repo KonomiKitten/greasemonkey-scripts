@@ -4,10 +4,10 @@ A collection of Userscripts to make Browsing better
 ## Extensions
 
 ### Recommended
-I recommend using Tampermonkey over any of the other extensions, it has a good consistent look across Firefox and Chrome and every feature you could want is supported.
+I recommending using Violentmonkey over any other extension, I used to recommend Tampermonkey but I recently found out it's proprietary. Violentmonkey can also get around some issues with Firefox CSP which makes it far better.
 
 ### Supported
-Greasemonkey 3, Tampermonkey and Violentmonkey are supported.
+Greasemonkey 3 and Violentmonkey are supported.
 
 ### Unsupported
 Greasemonkey 4 is not supported due to running userscripts in a Firefox 

@@ -1,17 +1,18 @@
 // ==UserScript==
-// @name	Wikia Tweaks
-// @author	KonomiKitten
-// @namespace	wikiatweaks
-// @description	Wikia Tweaks
-// @include	http://*wikia.com*
-// @include	https://*wikia.com*
-// @version	3.2.3
+// @name        Wikia Tweaks
+// @author      KonomiKitten
+// @namespace   wikiatweaks
+// @description Wikia Tweaks
+// @include     http://*wikia.com*
+// @include     https://*wikia.com*
+// @version     3.2.4
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
 // @supportURL  https://github.com/konomikitten/userscripts/issues
-// @grant	none
-// @run-at	document-start
+// @icon        https://static.wikia.nocookie.net/qube-assets/f2/3691/favicons/favicon-32x32.png
+// @grant       none
+// @run-at      document-start
 // ==/UserScript==
 
 function mutationObserver(args) {

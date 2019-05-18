@@ -5,7 +5,7 @@
 // @description Twitter Tweaks
 // @include     http://twitter.com*
 // @include     https://twitter.com*
-// @version     3.1.4
+// @version     3.1.6
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -13,6 +13,7 @@
 // @icon        https://abs.twimg.com/favicons/favicon.ico
 // @grant       none
 // @run-at      document-start
+// @inject-into content
 // ==/UserScript==
 
 function mutationObserver(args) {

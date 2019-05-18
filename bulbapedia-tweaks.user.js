@@ -1,17 +1,18 @@
 // ==UserScript==
-// @name	Bulbapedia Tweaks
-// @author	KonomiKitten
-// @namespace	bulbapediatweaks
-// @description	Hides the notice banner
-// @include 	http://bulbapedia.bulbagarden.net/*
-// @include 	https://bulbapedia.bulbagarden.net/*
-// @version	3.1.4
+// @name        Bulbapedia Tweaks
+// @author      KonomiKitten
+// @namespace   bulbapediatweaks
+// @description Hides the notice banner
+// @include     http://bulbapedia.bulbagarden.net/*
+// @include     https://bulbapedia.bulbagarden.net/*
+// @version     3.1.5
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/bulbapedia-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/bulbapedia-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
 // @supportURL  https://github.com/konomikitten/userscripts/issues
-// @grant	none
-// @run-at	document-start
+// @icon        https://bulbapedia.bulbagarden.net/favicon.ico
+// @grant       none
+// @run-at      document-start
 // ==/UserScript==
 
 function mutationObserver(args) {

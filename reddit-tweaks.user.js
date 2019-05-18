@@ -10,6 +10,7 @@
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
 // @supportURL  https://github.com/konomikitten/userscripts/issues
+// @icon        https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png
 // @grant       none
 // @run-at      document-start
 // ==/UserScript==

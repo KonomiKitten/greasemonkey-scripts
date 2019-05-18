@@ -1,17 +1,18 @@
 // ==UserScript==
-// @name	Google Homepage Tweaks
-// @author	KonomiKitten
-// @namespace	googlehomepagetweaks
-// @description	Disable "Come here often? Make Google your homepage"
-// @include	http://www.google.com*
-// @include	https://www.google.com*
-// @version	3.1.3
+// @name        Google Homepage Tweaks
+// @author      KonomiKitten
+// @namespace   googlehomepagetweaks
+// @description Disable "Come here often? Make Google your homepage"
+// @include     http://www.google.com*
+// @include     https://www.google.com*
+// @version     3.1.4
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/google-homepage-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/google-homepage-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
 // @supportURL  https://github.com/konomikitten/userscripts/issues
-// @grant	none
-// @run-at	document-end
+// @icon        https://www.google.com/s2/favicons?domain=www.google.com
+// @grant       none
+// @run-at      document-end
 // ==/UserScript==
 
 function mutationObserver(args) {

@@ -1,17 +1,18 @@
 // ==UserScript==
-// @name	YouTube Disable Up Next
-// @author	KonomiKitten
-// @namespace	youtubedisableupnext
-// @description	Disable "Up Next" otherwise known as AutoPlay
-// @include	http://www.youtube.com*
-// @include	https://www.youtube.com*
-// @version	1.1.6
+// @name        YouTube Disable Up Next
+// @author      KonomiKitten
+// @namespace   youtubedisableupnext
+// @description Disable "Up Next" otherwise known as AutoPlay
+// @include     http://www.youtube.com*
+// @include     https://www.youtube.com*
+// @version	    1.1.7
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
 // @supportURL  https://github.com/konomikitten/userscripts/issues
-// @grant	none
-// @run-at	document-end
+// @icon        https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png
+// @grant       none
+// @run-at      document-end
 // ==/UserScript==
 
 function mutationObserver(args) {

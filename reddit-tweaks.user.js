@@ -37,37 +37,35 @@ function mutationObserver(args) {
 mutationObserver({
   tag: 'head',
   done: function(element) {
-  var css = `
-    /* Hide visit new reddit */
-    button.redesign-beta-optin {
-      display: none !important;
-    }
-
-    /* Remove color on link flairs */
-    span.linkflairlabel {
-      padding: 0 2px !important;
-      color: #555 !important;
-      background-color: #f5f5f5 !important;
-      border: 1px solid #ddd !important;
-      font-size: 10px !important;
-      line-height: 13px !important;
-      height: 13px !important;
-    }
-
-    /* Remove Reddit premium banner */
-    form.premium-banner {
-      display: none !important;
-    }
-
-    /* Remove Redesign advertisements */
-    section.redesignbetabar-js {
-      display: none !important;
-    }`;
-
-    /* Insert the style into the page */
     var style = document.createElement('style');
     style.type = 'text/css';
-    style.innerHTML = css;
+    style.innerHTML = `
+      /* Hide visit new reddit */
+      button.redesign-beta-optin {
+        display: none !important;
+      }
+
+      /* Remove color on link flairs */
+      span.linkflairlabel {
+        padding: 0 2px !important;
+        color: #555 !important;
+        background-color: #f5f5f5 !important;
+        border: 1px solid #ddd !important;
+        font-size: 10px !important;
+        line-height: 13px !important;
+        height: 13px !important;
+      }
+
+      /* Remove Reddit premium banner */
+      form.premium-banner {
+        display: none !important;
+      }
+
+      /* Remove Redesign advertisements */
+      section.redesignbetabar-js {
+        display: none !important;
+      }
+    `;
     element.appendChild(style);
   }
 });

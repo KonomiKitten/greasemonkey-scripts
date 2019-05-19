@@ -38,34 +38,34 @@ function mutationObserver(args) {
 mutationObserver({
   tag: 'head',
   done: function(element) {
-  var style = document.createElement('style');
-  style.type = 'text/css';
-  style.innerHTML = `
-    /* Hide Moments button */
-    li[class*="moments js-moments-tab"] { display: none !important; }
+    var style = document.createElement('style');
+    style.type = 'text/css';
+    style.innerHTML = `
+      /* Hide Moments button */
+      li[class*="moments js-moments-tab"] { display: none !important; }
 
-    /* Hide Who to follow */
-    div[class*="wtf-module js-wtf-module"], div[class*="WhoToFollow"],
-    li[data-component-context*="suggest_who_to_follow"] {
-      display: none !important;
-    }
+      /* Hide Who to follow */
+      div[class*="wtf-module js-wtf-module"], div[class*="WhoToFollow"],
+      li[data-component-context*="suggest_who_to_follow"] {
+        display: none !important;
+      }
 
-    /* Hide Advertise with Twitter */
-    div[class*="flex-module Footer-adsModule"] {
-      display: none !important;
-    }
+      /* Hide Advertise with Twitter */
+      div[class*="flex-module Footer-adsModule"] {
+        display: none !important;
+      }
 
-    /* Hide While you were away... */
-    li[class*="js-stream-item"][class*="has-recap"] {
-      display: none !important;
-    }
+      /* Hide While you were away... */
+      li[class*="js-stream-item"][class*="has-recap"] {
+        display: none !important;
+      }
 
-    /* Hide Live video */
-    div[class*="VideoGuide"][class*="roaming-module"],
-    div[class*="LiveVideoHomePageModuleContainer"][class*="roaming-module"] {
-      display: none !important;
-    }
-  `;
-  element.appendChild(style);
+      /* Hide Live video */
+      div[class*="VideoGuide"][class*="roaming-module"],
+      div[class*="LiveVideoHomePageModuleContainer"][class*="roaming-module"] {
+        display: none !important;
+      }
+    `;
+    element.appendChild(style);
   }
 });

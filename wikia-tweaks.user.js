@@ -39,30 +39,30 @@ function mutationObserver(args) {
 mutationObserver({
   tag: 'head',
   done: function(element) {
-  var style = document.createElement('style');
-  style.type = 'text/css';
-  style.innerHTML = `
-    /* Hide Trending Fandom Articles */
-    section#recirculation-rail {
-      display: none !important;
-    }
+    var style = document.createElement('style');
+    style.type = 'text/css';
+    style.innerHTML = `
+      /* Hide Trending Fandom Articles */
+      section#recirculation-rail {
+        display: none !important;
+      }
 
-    /* Hide Fan Feed */
-    div[id="mixed-content-footer"] {
-      display: none !important;
-    }
+      /* Hide Fan Feed */
+      div[id="mixed-content-footer"] {
+        display: none !important;
+      }
 
-    /* Hide Wikia bar */
-    div[id="WikiaBar"] {
-      display: none !important;
-    }
+      /* Hide Wikia bar */
+      div[id="WikiaBar"] {
+        display: none !important;
+      }
 
-    /* Hide Video */
-    div[itemprop="video"] {
-      display: none !important;
-    }
-  `;
-  element.appendChild(style);
+      /* Hide Video */
+      div[itemprop="video"] {
+        display: none !important;
+      }
+    `;
+    element.appendChild(style);
   }
 });
 

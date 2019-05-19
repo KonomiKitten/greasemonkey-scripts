@@ -37,15 +37,15 @@ function mutationObserver(args) {
 mutationObserver({
   tag: 'head',
   done: function(element) {
-  var style = document.createElement('style');
-  style.type = 'text/css';
-  style.innerHTML = `
-    /* Hide Autoplay section */
-    ytd-compact-autoplay-renderer {
-      display: none !important;
-    }
-  `;
-  element.appendChild(style);
+    var style = document.createElement('style');
+    style.type = 'text/css';
+    style.innerHTML = `
+      /* Hide Autoplay section */
+      ytd-compact-autoplay-renderer {
+        display: none !important;
+      }
+    `;
+    element.appendChild(style);
   }
 });
 

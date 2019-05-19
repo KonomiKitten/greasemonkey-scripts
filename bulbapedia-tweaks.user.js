@@ -52,14 +52,14 @@ mutationObserver({
 mutationObserver({
   tag: 'head',
   done: function(element) {
-  var style = document.createElement('style');
-  style.type = 'text/css';
-  style.innerHTML = `
-    /* Disable Notice Banner */
-    div#siteNotice {
-      display: none !important;
-    }
-  `;
-  element.appendChild(style);
+    var style = document.createElement('style');
+    style.type = 'text/css';
+    style.innerHTML = `
+      /* Disable Notice Banner */
+      div#siteNotice {
+        display: none !important;
+      }
+    `;
+    element.appendChild(style);
   }
 });

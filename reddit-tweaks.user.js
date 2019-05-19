@@ -5,7 +5,7 @@
 // @description Various tweaks for Reddit
 // @include     http://www.reddit.com*
 // @include     https://www.reddit.com*
-// @version     1.3.1
+// @version     1.3.2
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts

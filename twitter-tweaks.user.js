@@ -5,7 +5,7 @@
 // @description Twitter Tweaks
 // @include     http://twitter.com*
 // @include     https://twitter.com*
-// @version     3.1.8
+// @version     3.1.9
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -38,7 +38,9 @@ function mutationObserver(args) {
 mutationObserver({
   tag: 'head',
   done: function(element) {
-    var css = `
+  var style = document.createElement('style');
+  style.type = 'text/css';
+  style.innerHTML = `
     /* Hide Moments button */
     li[class*="moments js-moments-tab"] { display: none !important; }
 
@@ -62,12 +64,8 @@ mutationObserver({
     div[class*="VideoGuide"][class*="roaming-module"],
     div[class*="LiveVideoHomePageModuleContainer"][class*="roaming-module"] {
       display: none !important;
-    }`;
-
-    /* Insert the style into the page */
-    var style = document.createElement('style');
-    style.type = 'text/css';
-    style.innerHTML = css;
-    element.appendChild(style);
+    }
+  `;
+  element.appendChild(style);
   }
 });

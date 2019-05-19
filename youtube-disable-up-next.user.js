@@ -5,7 +5,7 @@
 // @description Disable "Up Next" otherwise known as AutoPlay
 // @include     http://www.youtube.com*
 // @include     https://www.youtube.com*
-// @version	    1.1.8
+// @version	    1.1.9
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -17,27 +17,35 @@
 
 function mutationObserver(args) {
   new window.MutationObserver(function() {
-  var node;
-  if (args.tag) {
-    node = document.getElementsByTagName(args.tag)[0];
-  }
-  if (args.selector) {
-    node = document.querySelector(args.selector);
-  }
-  if (node) {
-    this.disconnect();
-    args.done(node);
-  }
+    var node;
+    if (args.tag) {
+      node = document.getElementsByTagName(args.tag)[0];
+    }
+    if (args.selector) {
+      node = document.querySelector(args.selector);
+    }
+    if (node) {
+      this.disconnect();
+      args.done(node);
+    }
   }).observe(document, {
-  'childList': true,
-  'subtree': true
+    'childList': true,
+    'subtree': true
   });
 }
 
 mutationObserver({
-  selector: 'ytd-compact-autoplay-renderer',
+  tag: 'head',
   done: function(element) {
-    element.style.setProperty("display", "none", "important");
+  var style = document.createElement('style');
+  style.type = 'text/css';
+  style.innerHTML = `
+    /* Hide Autoplay section */
+    ytd-compact-autoplay-renderer {
+      display: none !important;
+    }
+  `;
+  element.appendChild(style);
   }
 });
 

@@ -5,7 +5,7 @@
 // @description YouTube Tweaks
 // @include     http://www.youtube.com*
 // @include     https://www.youtube.com*
-// @version     1.0.6
+// @version     1.0.7
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/youtube-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/youtube-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -37,16 +37,14 @@ function mutationObserver(args) {
 mutationObserver({
   tag: 'head',
   done: function(element) {
-    var css = `
-    /* Hide payed video advertisements */
-    div#offer-module {
-      display: none !important;
-    }`;
-
-    /* Insert the style into the page */
     var style = document.createElement('style');
     style.type = 'text/css';
-    style.innerHTML = css;
+    style.innerHTML = `
+      /* Hide payed video advertisements */
+      div#offer-module {
+        display: none !important;
+      }
+    `;
     element.appendChild(style);
   }
 });

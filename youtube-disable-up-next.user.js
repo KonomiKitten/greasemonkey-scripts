@@ -5,7 +5,7 @@
 // @description Disable "Up Next" otherwise known as AutoPlay
 // @include     http://www.youtube.com*
 // @include     https://www.youtube.com*
-// @version     1.1.7
+// @version	    1.1.8
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -16,40 +16,36 @@
 // ==/UserScript==
 
 function mutationObserver(args) {
-    new window.MutationObserver(function() {
-        var node;
-        if (args.tag) {
-            node = document.getElementsByTagName(args.tag)[0];
-        }
-        if (args.selector) {
-            node = document.querySelector(args.selector);
-        }
-        if (node) {
-            this.disconnect();
-            args.done(node);
-        }
-    }).observe(document, {
-        'childList': true,
-        'attributes': true,
-        'characterData': true,
-        'subtree': true,
-        'attributeOldValue': true,
-        'characterDataOldValue': true
-    });
+  new window.MutationObserver(function() {
+  var node;
+  if (args.tag) {
+    node = document.getElementsByTagName(args.tag)[0];
+  }
+  if (args.selector) {
+    node = document.querySelector(args.selector);
+  }
+  if (node) {
+    this.disconnect();
+    args.done(node);
+  }
+  }).observe(document, {
+  'childList': true,
+  'subtree': true
+  });
 }
 
-/* New YouTube Theme */
 mutationObserver({
-    selector: 'div#head.style-scope.ytd-compact-autoplay-renderer',
-    done: function(element) {
-        element.style.setProperty("display", "none", "important");
-    }
+  selector: 'ytd-compact-autoplay-renderer',
+  done: function(element) {
+    element.style.setProperty("display", "none", "important");
+  }
 });
+
 mutationObserver({
-    selector: 'paper-toggle-button[id="improved-toggle"][class="style-scope ytd-compact-autoplay-renderer"][active=""]',
-    done: function(element) {
-        if (element.checked) {
-            element.click();
-        }
+  selector: 'paper-toggle-button[aria-label="Autoplay"]',
+  done: function(element) {
+    if (element.checked) {
+      element.click();
     }
+  }
 });

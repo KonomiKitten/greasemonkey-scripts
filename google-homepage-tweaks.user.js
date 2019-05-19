@@ -5,7 +5,7 @@
 // @description Disable "Come here often? Make Google your homepage"
 // @include     http://www.google.com*
 // @include     https://www.google.com*
-// @version     3.1.5
+// @version     3.1.6
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/google-homepage-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/google-homepage-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts

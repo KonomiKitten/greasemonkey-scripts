@@ -5,7 +5,7 @@
 // @description YouTube Tweaks
 // @include     http://www.youtube.com*
 // @include     https://www.youtube.com*
-// @version     1.0.7
+// @version     1.0.8
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/youtube-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/youtube-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts

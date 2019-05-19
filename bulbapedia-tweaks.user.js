@@ -5,7 +5,7 @@
 // @description Hides the notice banner
 // @include     http://bulbapedia.bulbagarden.net/*
 // @include     https://bulbapedia.bulbagarden.net/*
-// @version     3.1.7
+// @version     3.1.8
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/bulbapedia-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/bulbapedia-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -33,21 +33,6 @@ function mutationObserver(args) {
     'subtree': true
   });
 }
-
-mutationObserver({
-  tag: 'head',
-  done: function(element) {
-    var css = /* Cascading Style Sheets */
-    /* Disable Notice Banner */
-    'div#siteNotice { display: none !important; }';
-
-    /* Insert the style into the page */
-    var style = document.createElement('style');
-    style.type = 'text/css';
-    style.innerHTML = css;
-    element.appendChild(style);
-  }
-});
 
 mutationObserver({
   tag: 'head',

@@ -5,7 +5,9 @@
 // @description Wikia Tweaks
 // @include     http://*wikia.com*
 // @include     https://*wikia.com*
-// @version     3.2.5
+// @include     http://*fandom.com*
+// @include     https://*fandom.com*
+// @version     3.2.6
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts

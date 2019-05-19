@@ -66,7 +66,6 @@ mutationObserver({
   }
 });
 
-
 mutationObserver({
   selector: 'div#featured-video__player > div > video',
   done: function(node) {

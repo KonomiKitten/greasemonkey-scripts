@@ -5,7 +5,7 @@
 // @description Twitter Tweaks
 // @include     http://twitter.com*
 // @include     https://twitter.com*
-// @version     3.2.0
+// @version     3.2.1
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -16,56 +16,4 @@
 // @inject-into content
 // ==/UserScript==
 
-function mutationObserver(args) {
-  new window.MutationObserver(function() {
-    var node;
-    if (args.tag) {
-      node = document.getElementsByTagName(args.tag)[0];
-    }
-    if (args.selector) {
-      node = document.querySelector(args.selector);
-    }
-    if (node) {
-      this.disconnect();
-      args.done(node);
-    }
-  }).observe(document, {
-    'childList': true,
-    'subtree': true
-  });
-}
-
-mutationObserver({
-  tag: 'head',
-  done: function(element) {
-    var style = document.createElement('style');
-    style.type = 'text/css';
-    style.innerHTML = `
-      /* Hide Moments button */
-      li[class*="moments js-moments-tab"] { display: none !important; }
-
-      /* Hide Who to follow */
-      div[class*="wtf-module js-wtf-module"], div[class*="WhoToFollow"],
-      li[data-component-context*="suggest_who_to_follow"] {
-        display: none !important;
-      }
-
-      /* Hide Advertise with Twitter */
-      div[class*="flex-module Footer-adsModule"] {
-        display: none !important;
-      }
-
-      /* Hide While you were away... */
-      li[class*="js-stream-item"][class*="has-recap"] {
-        display: none !important;
-      }
-
-      /* Hide Live video */
-      div[class*="VideoGuide"][class*="roaming-module"],
-      div[class*="LiveVideoHomePageModuleContainer"][class*="roaming-module"] {
-        display: none !important;
-      }
-    `;
-    element.appendChild(style);
-  }
-});
+/* Disabled for now due to new Twitter being relelease, see Issue: #2 */

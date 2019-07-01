@@ -37,13 +37,6 @@ Quoting an issue on Greasemonkey's Issue Tracker:
   * Restyle color fair back to normal flair
   * Remove Redesign advertisements
 
-### Twitter Tweaks
-  * Hides the "Moments" button
-  * Hides "Who to follow"
-  * Hides "Advertise with Twitter"
-  * Hides "While you were away..."
-  * Hides "Live video"
-
 ### Wikia Tweaks
   * Hide Trending Fandom Articles
   * Hide Fan Feed
@@ -61,8 +54,6 @@ Quoting an issue on Greasemonkey's Issue Tracker:
 [Google Homepage Tweaks](https://github.com/konomikitten/userscripts/raw/master/google-homepage-tweaks.user.js)
 
 [Reddit Tweaks](https://github.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js)
-
-[Twitter Tweaks](https://github.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js)
 
 [Wikia Tweaks](https://github.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js)
 

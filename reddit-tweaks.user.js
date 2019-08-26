@@ -46,14 +46,16 @@ mutationObserver({
       }
 
       /* Remove color on link flairs */
-      span.linkflairlabel {
+      span.linkflairlabel, span.flairrichtext {
+        display: inline-block !important;
+        margin-right: .5em !important;
         padding: 0 2px !important;
+        background: #f5f5f5 !important;
         color: #555 !important;
-        background-color: #f5f5f5 !important;
         border: 1px solid #ddd !important;
-        font-size: 10px !important;
-        line-height: 13px !important;
-        height: 13px !important;
+        border-radius: 2px !important;
+        overflow: hidden; !important;
+        max-width: 16em !important;
       }
 
       /* Remove Reddit premium banner */

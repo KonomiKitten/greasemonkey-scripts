@@ -5,7 +5,7 @@
 // @description Twitter Tweaks
 // @include     http://twitter.com*
 // @include     https://twitter.com*
-// @version     3.2.1
+// @version     3.2.2
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/twitter-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -14,6 +14,7 @@
 // @grant       none
 // @run-at      document-start
 // @inject-into content
+// @noframes
 // ==/UserScript==
 
 /* Disabled for now due to new Twitter being relelease, see Issue: #2 */

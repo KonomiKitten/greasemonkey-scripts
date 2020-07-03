@@ -7,7 +7,7 @@
 // @include     https://*wikia.com*
 // @include     http://*fandom.com*
 // @include     https://*fandom.com*
-// @version     3.2.7
+// @version     3.2.8
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/wikia-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -15,6 +15,7 @@
 // @icon        https://static.wikia.nocookie.net/qube-assets/f2/3691/favicons/favicon-32x32.png
 // @grant       none
 // @run-at      document-start
+// @noframes
 // ==/UserScript==
 
 function mutationObserver(args) {

@@ -5,7 +5,7 @@
 // @description Various tweaks for Reddit
 // @include     http://*.reddit.com*
 // @include     https://*.reddit.com*
-// @version     1.3.5
+// @version     1.3.6
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/reddit-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -13,6 +13,7 @@
 // @icon        https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png
 // @grant       none
 // @run-at      document-start
+// @noframes
 // ==/UserScript==
 
 function mutationObserver(args) {

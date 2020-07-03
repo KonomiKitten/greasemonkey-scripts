@@ -5,7 +5,7 @@
 // @description YouTube Tweaks
 // @include     http://www.youtube.com*
 // @include     https://www.youtube.com*
-// @version     1.0.9
+// @version     1.1.0
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/youtube-tweaks.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/youtube-tweaks.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -13,6 +13,7 @@
 // @icon        https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png
 // @grant       none
 // @run-at      document-start
+// @noframes
 // ==/UserScript==
 
 function mutationObserver(args) {

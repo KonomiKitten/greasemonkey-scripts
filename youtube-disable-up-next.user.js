@@ -5,7 +5,7 @@
 // @description Disable "Up Next" otherwise known as AutoPlay
 // @include     http://www.youtube.com*
 // @include     https://www.youtube.com*
-// @version     1.3.0
+// @version     1.3.1
 // @updateURL   https://github.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js
 // @downloadURL https://github.com/konomikitten/userscripts/raw/master/youtube-disable-up-next.user.js
 // @homepageURL https://github.com/konomikitten/userscripts
@@ -50,18 +50,13 @@ mutationObserver({
   }
 });
 
-
-
-
 mutationObserver({
   selector: 'button.ytp-button[data-tooltip-target-id="ytp-autonav-toggle-button"]',
   done: function(element) {
     function pollValue() {
-      console.log(element)
       if (element.getAttribute("aria-label") == "Autoplay is on") {
         element.click();
         setTimeout(pollValue, 500);
-        
       }
     }
     pollValue();
